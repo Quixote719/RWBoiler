@@ -1,20 +1,21 @@
 $Height: 140px;
 
-.deck{
+.deck {
   height: $Height;
   background-color: orangered;
+  text-align: center;
 }
 
-body{
+body {
   margin: 0;
-  .App-intro{
+  .App-intro {
     padding: 49px;
     font-family: "Arial";
     font-size: 20px;
     text-align: center;
   }
 
-  .block{
+  .block {
     margin: auto;
     background-color: darkcyan;
     height: 300px;
