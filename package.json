@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development --progress --watch",
+    "precommit": "pretty-quick --staged",
     "start": "webpack-dev-server --mode development --inline --content-base --watch."
   },
   "author": "L",
